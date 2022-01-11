@@ -1,6 +1,6 @@
 int main(){
 
-int x,y,sum,sum2;
+int x,y,sum,sum2,sum3;
 
 
 cout<< "enter two numbers";
@@ -16,6 +16,10 @@ cin>> x >> y;
 
 sum=x*y;
 cout<< x "*" y "=" sum2;
+
+sum=x-y;
+cout<< x "-" y "=" sum3;
+
 return 0;
 
 }
